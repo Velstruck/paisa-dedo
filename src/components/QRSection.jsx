@@ -13,9 +13,11 @@ export default function QRSection() {
       <div className="bg-white p-4 rounded-lg inline-block mb-4">
         <img src={qrcode} alt="vasudevfbp7@oksbi" />
       </div>
+      <a href="https://tinyurl.com/fundmevasu" target="_blank" rel="noreferrer">
       <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg font-bold animate-glow hover:bg-indigo-700 transition-all">
-        Scan & Pay
+        Scan & Pay (Mobile App)
       </button>
+      </a>
     </motion.div>
   );
 }
