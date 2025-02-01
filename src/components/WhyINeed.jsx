@@ -89,7 +89,7 @@ export default function WhyINeed() {
         transition={{ delay: 1 }}
       >
         <span className="text-xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-500 text-transparent bg-clip-text">
-          Thanks for supporting this developer's keyboard upgrade! 🎹⚡
+          Thanks for supporting this developer's keyboard upgrade!<span className='text-white'> 🎹⚡</span>
         </span>
       </motion.div>
     </div>
